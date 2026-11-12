@@ -17,7 +17,7 @@ USE gestao_saude_db;
 SET FOREIGN_KEY_CHECKS = 1;
 
 -- -----------------------------------------------------------------------------
--- Tabela: pessoa (superclasse de paciente e profissional_saude)
+-- Tabela: pessoa (superclasse paciente / profissional_saude)
 -- -----------------------------------------------------------------------------
 CREATE TABLE pessoa (
     id        INT          NOT NULL AUTO_INCREMENT,
