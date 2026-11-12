@@ -34,7 +34,7 @@ CREATE TABLE pessoa (
 -- -----------------------------------------------------------------------------
 CREATE TABLE paciente (
     id_pessoa       INT         NOT NULL,
-    cartaoSus       VARCHAR(30) NOT NULL,
+    cartaoSus       VARCHAR(15) NOT NULL,
     dataNascimento  DATE        NOT NULL,
     CONSTRAINT pk_paciente           PRIMARY KEY (id_pessoa),
     CONSTRAINT uk_paciente_cartaoSus UNIQUE (cartaoSus),
